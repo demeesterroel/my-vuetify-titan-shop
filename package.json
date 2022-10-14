@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "serve": "vite preview",
     "build": "vite build",
-    "dev": "vite",
-    "preview": "vite preview"
+    "dev": "vite dev",
+    "generate": "vite generate",
+    "preview": "vite preview",
+    "postinstall": "vite prepare"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
@@ -19,7 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
-    "vite": "^3.0.8",
+    "vite": "^3.0.9",
     "vite-plugin-vuetify": "^1.0.0-alpha.12",
     "vue-cli-plugin-vuetify": "~2.5.4"
   },
