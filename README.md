@@ -1,6 +1,6 @@
 # My Vuetify Titan Shop - Demo Vuetify 3 (Beta) Project
 
-This is my demo project using Vue 3, Vite, and Vuetify 3.
+This is a fork of a demo project using Vue 3, Vite, and Vuetify 3.
 
 ## Screenshots
 
